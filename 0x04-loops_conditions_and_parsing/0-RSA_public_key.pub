@@ -1,1 +1,3 @@
+#!/usr/bin/env bash
+#This script has my rsa public key in it
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDUYE2TcV2ghR/YX13sdKvuYQU9wgdpfOJ6uCeyfkaoCA5uAGsmzO9WQ9JXD5fvmYn3x+5x6uqanfs4/yQioJ9dKPLLk8Vo7ActJ6BUztG4+U4vg1+S/UDZB902MKC/z74u+yO0Z3fktyI2H2xTKrRFnXP+1vfsba6/IYIasH4R4M+6yVO5gtHs0PMgZoHUrYlqiMaV7h9d4bcAG0QpLQSo0UlJVAxCYsLebkO7kZ1oS2bHCrIGwe/N71Cbpi9InWbUEhb2m0QmXBuBhXM/LinNuZ+rSLxnYXXoXXZhk8iVcdKDs2m1QYKv9G2+KwwTILkBOsSbfsiebYpC8Io9ThSd rsa-key-20230427
