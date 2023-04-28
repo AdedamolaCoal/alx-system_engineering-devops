@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#A bash script to loop "Best School" 10 times
+var=1
+while [ $var -le 10 ]
+do
+	echo "Best School"
+	var=$(( var+1 ))
+done

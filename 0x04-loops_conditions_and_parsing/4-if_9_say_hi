@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#A script that prints "Best School" 10 times and on the 9th time prints "Hi" after "Best School"
+var=1
+while [ $var -lt 10 ]
+do
+	if [ $var -eq 9 ] ;
+	then
+		echo "Best School"
+		echo "Hi"
+	fi
+	echo "Best School"
+	var=$(( var+1 ))
+done

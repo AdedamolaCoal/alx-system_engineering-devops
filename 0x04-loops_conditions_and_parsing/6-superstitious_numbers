@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#A script that displays number from 1 to 20 with different output
+var=1
+while [ $var -lt 21 ]
+do
+	case $var in
+		5 )
+			echo "bad luck from china" ;;
+		10 )
+			echo "bad luck from japan" ;;
+		18 )
+			echo "bad luck from italy" ;;
+	esac
+	echo "$var"
+	var=$(( var+1 ))
+done
