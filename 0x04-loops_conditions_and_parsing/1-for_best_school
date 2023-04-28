@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #A shell script to loop "Best School" 10 times
-for i in {0..10}
+for (( i=0; i<10; i++ ))
 do
 	echo "Best School"
 done
