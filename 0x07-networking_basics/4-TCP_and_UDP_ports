@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#This is the answer to the UDP and TCP ports question which displays
+#the listening sockets and shows the PID and program name..
+
+netstart -l --program
