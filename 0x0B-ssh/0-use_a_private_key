@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# The script expects the server's address as the first argument
+if [ -z "$1" ]; then
+  echo "Usage: $0 34.229.55.202"
+  exit 1
+fi
+
+# Use ssh with single-character flags to connect to the server
+ssh -i ~/.ssh/school ubuntu@$1
