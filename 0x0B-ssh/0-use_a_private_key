@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Define the server address and connect to it in the next line
 SERVER="34.229.55.202"
 # Use ssh to connect with the specified private key and user
